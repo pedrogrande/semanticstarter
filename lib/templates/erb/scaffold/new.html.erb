@@ -1,0 +1,6 @@
+<h1>New <%= singular_table_name.humanize %></h1>
+
+<%%= render 'form', <%= singular_table_name %>: @<%= singular_table_name %> %>
+
+
+<%%= link_to 'Cancel', <%= index_helper %>_path, class: 'card-link' %>
